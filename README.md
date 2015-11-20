@@ -8,7 +8,12 @@ Setup
 * Select **Gradle Support**
 * Click **Install** and proceed with the prompts
 * Right-click the **waffles** project
-* Select **Configure / Convert to Gradle Project...**
+    * Select **Configure / Convert to Gradle Project...**
+* Right-click the **waffles** project
+    * Go to **Java Build Path** / **Libraries**
+    * Select **JRE System Library**
+    * Select **Alternate JRE**
+    * Change to **java-8-oracle**
 * Press **Shift+Ctrl+Alt+R** to open the gradle task launcher
 * Type **init**, and press **Enter**
 * Open **build.gradle** and remove the /* and */ comment markers
